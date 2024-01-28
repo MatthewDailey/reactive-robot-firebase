@@ -10,40 +10,35 @@
         html,
         body {
             margin: 0;
-            height: 100%;
             font-family: Roboto, sans-serif;
             color: #333333FF;
-        }
-
-        .row,
-        .socialRow,
-        body,
-        a {
-            display: flex;
-            align-items: center;
+            font-weight: 200;
         }
 
         body {
-            justify-content: center;
+            padding: 32px;
+            padding-bottom: 32px;
+            max-width: 800px;
         }
 
-        #content {
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-        }
-
-        p,
-        h1,
-        svg {
-            display: inline-block;
-            margin: 8px;
+        h1 {
+            font-size: 36px;
+            line-height: 36px;
+            font-weight: 200;
         }
 
         p {
             font-size: 18px;
-            font-weight: 200;
+            line-height: 24px;
+        }
+
+        a {
+            color: #333333FF;
+        }
+
+        #home {
+            font-size: 14px;
+            text-decoration: none;
         }
 
         .name {
@@ -71,7 +66,7 @@
     <div id="content">
         <div>
             <div class="row">
-                <p class="name">Matt Dailey</p>
+                <h1 class="name">Matt Dailey</h1>
 
                 <div class="socialRow">
                     <!-- Github -->
