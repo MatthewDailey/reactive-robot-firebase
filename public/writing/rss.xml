@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Matt Dailey's Writing</title>
+    <link>https://reactiverobot.com/writing/</link>
+    <description>Things I thought were worth writing down.</description>
+    <language>en-us</language>
+    <pubDate>Tue, 03 Sep 2024 09:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Burnout happens</title>
+      <link>https://reactiverobot.com/writing/burnout.html</link>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <description>I love long road trips and letting my thoughts drift while I drive. It can be
+        really creative and energizing, and I often ask my wife to jot down an idea and text it to
+        me so I don’t lose it. But sometimes my thoughts drift into rough waters. I get stuck on
+        something and start turning it over and over in my mind, getting more and more worked up.</description>
+      <guid>https://reactiverobot.com/writing/burnout.html</guid>
+      <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0000</lastBuildDate>
+    </item>
+
+    <item>
+      <title>Hiring is emotional</title>
+      <link>https://reactiverobot.com/writing/hiring.html</link>
+      <description>When I’m stressed about work, I pace around the house. I work in our bedroom so I
+        walk back and forth at the foot
+        of the bed. My pacing is a mix of silent rehearsal and fist pumping to psych myself up. But
+        for one call in winter
+        2022, I struggled to get in the zone.</description>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <guid>https://reactiverobot.com/writing/hiring.html</guid>
+      <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0000</lastBuildDate>
+    </item>
+
+    <item>
+      <title>Code review is your job</title>
+      <description>When I started at Palantir, my desk was in a typical Silicon Valley office space.
+        My team was in a room with six
+        standing desks, no windows and a huge purple bean bag in the corner. I came back to my desk
+        one afternoon feeling
+        pretty good. I had just sent one my first decently large PRs for review and I was proud of
+        it.</description>
+      <link>https://reactiverobot.com/writing/code-review.html</link>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <guid>https://reactiverobot.com/writing/code-review.html</guid>
+      <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0000</lastBuildDate>
+    </item>
+
+    <item>
+      <title>Always be pitching</title>
+      <description>While managing the Growth team at Figma, I worked from home in a small,
+        downstairs one-bedroom with two rooms. I
+        worked in the bedroom and my wife Courtney worked in the everything-else room.</description>
+      <link>https://reactiverobot.com/writing/always-be-pitching.html</link>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <guid>https://reactiverobot.com/writing/always-be-pitching.html</guid>
+      <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0000</lastBuildDate>
+    </item>
+
+
+    <!-- Add more <item> elements for additional posts -->
+
+  </channel>
+</rss>
