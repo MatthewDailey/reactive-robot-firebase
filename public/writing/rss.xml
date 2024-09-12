@@ -62,8 +62,17 @@
       <lastBuildDate>Tue, 06 Aug 2024 09:00:00 +0000</lastBuildDate>
     </item>
 
-
+   <item>
+      <title>Only outcomes matter</title>
+      <description>When I joined Figma, it was small enough for me to set up a coffee date with every employee. Everyone sat in a big
+    room above a bar and coffee shop so every day for my first two months, I’d grab someone and go to the coffee stand
+    downstairs to get to know them.</description>
+      <link>https://reactiverobot.com/writing/outcomes-matter.html</link>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <guid>https://reactiverobot.com/writing/outcomes-matter.html</guid>
+      <pubDate>Tue, 13 Aug 2024 09:00:00 +0000</pubDate>
+      <lastBuildDate>Tue, 13 Aug 2024 09:00:00 +0000</lastBuildDate>
+    </item>
     <!-- Add more <item> elements for additional posts -->
-
   </channel>
 </rss>
