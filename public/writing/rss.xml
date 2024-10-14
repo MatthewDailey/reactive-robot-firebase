@@ -73,6 +73,16 @@
       <pubDate>Tue, 13 Aug 2024 09:00:00 +0000</pubDate>
       <lastBuildDate>Tue, 13 Aug 2024 09:00:00 +0000</lastBuildDate>
     </item>
+    
+    <item>
+      <title>Leveling up hurts</title>
+      <description>I quit the startup before Figma after just 3 months. It's not on my LinkedIn so you can't look it up. It wasn't the right role for me but I went for it, partly due to the higher pay. They offered way more than I made previously, which turned out to be pretty unfortunate.</description>
+      <link>https://reactiverobot.com/writing/leveling-up.html</link>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <guid>https://reactiverobot.com/writing/leveling-up.html</guid>
+      <pubDate>Mon, 14 Oct 2024 09:00:00 +0000</pubDate>
+      <lastBuildDate>Mon, 14 Oct 2024 09:00:00 +0000</lastBuildDate>
+    </item>
     <!-- Add more <item> elements for additional posts -->
   </channel>
 </rss>
