@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+  <meta name="description" property="og:description"
+    content="Exploring software engineering metaphors in AI and how AI tools can enhance the coding experience.">
+  <!-- dimensions 520x270 -->
+  <meta name="image" property="og:image" content="/writing/software-eng-ai.png">
+  <meta name="author" content="Matt Dailey">
+
+  <title>Software Engineering Metaphors in AI</title>
+
+  <style media="screen">
+    html,
+    body {
+      margin: 0;
+      font-family: Roboto, sans-serif;
+      color: #333333FF;
+      font-weight: 300;
+    }
+
+    body {
+      padding: 32px;
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 36px;
+      font-weight: 300;
+    }
+
+    b,
+    p,
+    li {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    a {
+      color: #333333FF;
+      text-decoration: none;
+    }
+
+    #writing {
+      font-size: 14px;
+    }
+  </style>
+
+  <link rel="icon" href="/head-favicon.png" />
+</head>
+
+<body>
+  <h1><a href="/writing" id="writing">writing /</a> Software Engineering Metaphors in AI</h1>
+  <b>Exploring software engineering metaphors in AI</b>
+  <p>In college I learned object-oriented programming and architecture as a metaphor for software engineering.</p>
+
+  <p>That has some accuracy but isn't quite right because software systems are always evolving. At the large scale gardening is a better metaphor because you're constantly pruning and tending to things. And you often don't know exactly how things will go so you're trying to guide growth over time. (And also in my exp, most of life is like gardening and not architecture).</p>
+
+  <p>I like Gardening as a metaphor at the larger scale but at a smaller scale (eg day-to-day, minute-to-minute), Tai Chi feels more accurate. Software engineering on the small scale is decompose a problem into parts and tackle them in sequence. When you watch a master, the flow is so smooth that it looks effortless and at each decomposed step they can give 100% focus. (Maybe martial arts or rock climbing are similar if you're really really fit? but those seem too aggressive lol)</p>
+
+  <p>It gives me goosebumps just thinking about engineers, one in particular at Figma, who does this really, really well. He does it so well, in fact, we had one 30 minute conversation where he was like "hey, what if you tried this?" and I tried it and got to feel that flow for the next 48 hours and it was electric.</p>
+
+  <p>That is what I think AI coding tools should do. It should help the aspiring engineers feel like great engineers when they can flow through a problem.</p>
+
+  <p>Really fantastic engineers already do this. They focus on optimizing their tools so that each step of the process is smooth. So far AI coding tool adopters are a mix of people who love tech (eg early adopters to everything) and these excellent engineers who are developing their tool set for their craft.</p>
+
+  <b>How does AI do this?</b>
+  <ul>
+    <li>Autocomplete value is making the small steps flow.</li>
+    <li>Prompt-to-code value is turning medium steps into small steps. (eg, writing a whole unit test suite vs test-by-test)</li>
+    <li>Agentic tools value is decomposing the problem in to clear small steps.</li>
+  </ul>
+
+  <p>How these different types of tools work is implementation and not relevant to the product. Users don't care if you trained your own foundation model, should not be picking a model and want to do minimal prompt engineering. They should simply be handed a tool that works.</p>
+
+  <b>Where am I in this exploration?</b>
+  <p>Where I feel the sticking point is between agent and prompt-to-code. Prompting a single method or test suite works well. Prompting a change across a few files is hard. That's because when prompting across multiple files I often ask for too large a step. I ask for a new method to be implemented, tested and called.</p>
+
+  <p>Part of the reason for this is substeps inform my thinking about future steps. For example, in TDD I'll stub a method and write the tests first. Often once I start writing the test suite, I realize there are cases I hadn't considered on the first pass. The act of testing the API refines my understanding of what the API should be.</p>
+
+  <p>As a case study consider Cursor which has all these features. I've watched Figma's internal trial and Cursor's Reddit page. In-line prompt-to-code is good and autocomplete is incredible and why their product is getting so much love. On the other hand, people struggle with Composor (the multi-file edit tool, almost-not-quite an agent).</p>
+
+  <p>I'm building tools to make specific steps I take smoother (Eg complete, fix, todo) and practicing how to prompt multi-file generation and considering types of steps (eg. define/stub, test, implement, refactor). I think giving these atoms to engineers is how to level them up and feel that advanced state of flow.</p>
+
+  <!-- 100% privacy-first analytics -->
+  <script async defer src="https://scripts.simpleanalyticscdn.com/light.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
+      referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+
+</html>
