@@ -83,6 +83,16 @@
       <pubDate>Mon, 14 Oct 2024 09:00:00 +0000</pubDate>
       <lastBuildDate>Mon, 14 Oct 2024 09:00:00 +0000</lastBuildDate>
     </item>
+
+    <item>
+      <title>Reflection is all you need</title>
+      <description>Story of when I met my favorite meeting and the importance of reflection.</description>
+      <link>https://reactiverobot.com/writing/reflection.html</link>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <guid>https://reactiverobot.com/writing/reflection.html</guid>
+      <pubDate>Tue, 12 Nov 2024 09:00:00 +0000</pubDate>
+      <lastBuildDate>Tue, 12 Nov 2024 09:00:00 +0000</lastBuildDate>
+    </item>
     <!-- Add more <item> elements for additional posts -->
   </channel>
 </rss>
