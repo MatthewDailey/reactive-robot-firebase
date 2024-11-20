@@ -14,12 +14,25 @@
   <title>Always be pitching</title>
 
   <style media="screen">
+    :root {
+      --text-color: #333333FF;
+      --background-color: #FFFFFF;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-color: #FFFFFF;
+        --background-color: #1a1a1a;
+      }
+    }
+
     html,
     body {
       margin: 0;
       font-family: Roboto, sans-serif;
-      color: #333333FF;
+      color: var(--text-color);
       font-weight: 300;
+      background-color: var(--background-color);
     }
 
     body {
@@ -48,12 +61,32 @@
     #writing {
       font-size: 14px;
     }
+
+    .theme-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: none;
+      border: none;
+      color: var(--text-color);
+      cursor: pointer;
+      opacity: 0.3;
+      transition: opacity 0.3s;
+      font-size: 16px;
+    }
+
+    .theme-toggle:hover {
+      opacity: 0.8;
+    }
   </style>
 
   <link rel="icon" href="/head-favicon.png" />
 </head>
 
 <body>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+    ☀️
+  </button>
   <h1><a href="/writing" id="writing">writing /</a> Always be pitching</h1>
   <b>Story of what I did all day as a manager</b>
   <p>While managing the Growth team at Figma, I worked from home in a small, downstairs one-bedroom with two rooms. I
@@ -110,6 +143,7 @@
   <p>Sharing your early thoughts is not just for you, it’s also valuable to your team.</p>
   <!-- 100% privacy-first analytics -->
   <script async defer src="https://scripts.simpleanalyticscdn.com/light.js"></script>
+  <script src="/darkmode.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
       referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>
