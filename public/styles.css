@@ -1,0 +1,76 @@
+:root {
+    --text-color: #333333FF;
+    --background-color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #FFFFFF;
+        --background-color: #1a1a1a;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: var(--text-color);
+    font-weight: 300;
+    background-color: var(--background-color);
+}
+
+body {
+    padding: 32px;
+    padding-bottom: 32px;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+#home {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.name {
+    font-size: 36px;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.socialRow {
+    flex-wrap: nowrap;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+    font-size: 16px;
+}
+
+.theme-toggle:hover {
+    opacity: 0.8;
+}
