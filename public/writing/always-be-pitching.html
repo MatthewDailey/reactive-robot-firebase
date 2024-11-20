@@ -11,11 +11,76 @@
   <meta name="image" property="og:image" content="/writing/always-be-pitching.png">
   <meta name="author" content="Matt Dailey">
 
-<title>Always be pitching</title>
+  <title>Always be pitching</title>
 
-<link rel="stylesheet" href="/styles.css">
-<link rel="icon" href="/head-favicon.png" />
-<!-- Removed inline styles -->
+  <style media="screen">
+    :root {
+      --text-color: #333333FF;
+      --background-color: #FFFFFF;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-color: #FFFFFF;
+        --background-color: #1a1a1a;
+      }
+    }
+
+    html,
+    body {
+      margin: 0;
+      font-family: Roboto, sans-serif;
+      color: var(--text-color);
+      font-weight: 300;
+      background-color: var(--background-color);
+    }
+
+    body {
+      padding: 32px;
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 36px;
+      font-weight: 300;
+    }
+
+    b,
+    p,
+    li {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    a {
+      color: #333333FF;
+      text-decoration: none;
+    }
+
+    #writing {
+      font-size: 14px;
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: none;
+      border: none;
+      color: var(--text-color);
+      cursor: pointer;
+      opacity: 0.3;
+      transition: opacity 0.3s;
+      font-size: 16px;
+    }
+
+    .theme-toggle:hover {
+      opacity: 0.8;
+    }
+  </style>
+
+  <link rel="icon" href="/head-favicon.png" />
 </head>
 
 <body>
@@ -42,7 +107,6 @@
     me a new, better idea to start pitching.</p>
 
   <b>Principles of constantly pitching ideas</b>
-  <p>Great engineering leaders are always pitching ... 
   <p>Great engineering leaders are always pitching. They fill blank space in meetings with ideas and make time to share
     their thinking with others before it's fully developed.</p>
 
