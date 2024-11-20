@@ -48,32 +48,12 @@
     #writing {
       font-size: 14px;
     }
-
-    .theme-toggle {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: none;
-      border: none;
-      color: var(--text-color);
-      cursor: pointer;
-      opacity: 0.3;
-      transition: opacity 0.3s;
-      font-size: 16px;
-    }
-
-    .theme-toggle:hover {
-      opacity: 0.8;
-    }
   </style>
 
   <link rel="icon" href="/head-favicon.png" />
 </head>
 
 <body>
-  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
-    ☀️
-  </button>
   <h1><a href="/writing" id="writing">writing /</a> Software Engineering Metaphors in AI</h1>
   <b>Exploring software engineering metaphors in AI</b>
   <p>In college I learned object-oriented programming and architecture as a metaphor for software engineering.</p>
@@ -91,8 +71,7 @@
   <b>How does AI do this?</b>
   <ul>
     <li>Autocomplete value is making the small steps flow.</li>
-    <li>Prompt-to-code value is turning medium steps into small steps. (eg, writing a whole unit test suite vs
-      test-by-test)</li>
+    <li>Prompt-to-code value is turning medium steps into small steps. (eg, writing a whole unit test suite vs test-by-test)</li>
     <li>Agentic tools value is decomposing the problem in to clear small steps.</li>
   </ul>
 
@@ -106,10 +85,10 @@
   <p>As a case study consider Cursor which has all these features. I've watched Figma's internal trial and Cursor's Reddit page. In-line prompt-to-code is good and autocomplete is incredible and why their product is getting so much love. On the other hand, people struggle with Composor (the multi-file edit tool, almost-not-quite an agent).</p>
 
   <p>I'm building tools to make specific steps I take smoother (Eg complete, fix, todo) and practicing how to prompt multi-file generation and considering types of steps (eg. define/stub, test, implement, refactor). I think giving these atoms to engineers is how to level them up and feel that advanced state of flow.</p>
+
   <!-- 100% privacy-first analytics -->
   <script async defer src="https://scripts.simpleanalyticscdn.com/light.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
-  <script src="/darkmode.js"></script>
       referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>
 

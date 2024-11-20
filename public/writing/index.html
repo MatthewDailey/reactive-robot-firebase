@@ -58,32 +58,12 @@
       line-height: 24px;
       padding-bottom: 8px;
     }
-    
-    .theme-toggle {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: none;
-      border: none;
-      color: var(--text-color);
-      cursor: pointer;
-      opacity: 0.3;
-      transition: opacity 0.3s;
-      font-size: 16px;
-    }
-
-    .theme-toggle:hover {
-      opacity: 0.8;
-    }
   </style>
 
   <link rel="icon" href="/head-favicon.png" />
 </head>
 
 <body>
-  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
-    ☀️
-  </button>
   <h1><a href="/" id="home">home /</a> Writing <a id="rss" href="/writing/rss.xml">RSS</a></h1>
 
 
@@ -92,22 +72,31 @@
     management. They're things I've said enough that I thought they were worth writing down.
   </p>
 
-  <p>If you're skeptical of a comment and want to push back, try implementing the suggestion first. It's easier than
-    you think. Even if you decide to push back, the follow-up conversation is more productive when you start by saying
-    "I tried your idea but here are the issues I ran into...".</p>
-
   <ul>
     <li>
+      <a href="/writing/burnout.html">1. Burnout happens</a>
+    </li>
+    <li>
+      <a href="/writing/hiring.html">2. Hiring is emotional</a>
+    </li>
+    <li>
+      <a href="/writing/code-review.html">3. Code review is your job</a>
+    </li>
+    <li>
       <a href="/writing/always-be-pitching.html">4. Always be pitching</a>
+    </li>
+    <li>
+      <a href="/writing/outcomes-matter.html">5. Only outcomes matter</a>
+    </li>
+    <li>
+      <a href="/writing/leveling-up.html">6. Leveling up hurts</a>
     </li>
     <li>
       <a href="/writing/reflection.html">7. Reflection is all you need</a>
     </li>
   </ul>
-
   <!-- 100% privacy-first analytics -->
   <script async defer src="https://scripts.simpleanalyticscdn.com/light.js"></script>
-  <script src="/darkmode.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
       referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>
