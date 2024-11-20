@@ -48,12 +48,32 @@
     #writing {
       font-size: 14px;
     }
+
+    .theme-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: none;
+      border: none;
+      color: var(--text-color);
+      cursor: pointer;
+      opacity: 0.3;
+      transition: opacity 0.3s;
+      font-size: 16px;
+    }
+
+    .theme-toggle:hover {
+      opacity: 0.8;
+    }
   </style>
 
   <link rel="icon" href="/head-favicon.png" />
 </head>
 
 <body>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+    ☀️
+  </button>
   <h1><a href="/writing" id="writing">writing /</a> Only outcomes matter</h1>
   <b>Story of when I encountered an ownership mentality in action</b>
   <p>When I joined Figma, it was small enough for me to set up a coffee date with every employee. Everyone sat in a big
@@ -95,11 +115,9 @@
 
   <b>Key takeaways</b>
   <p>All that matters is the outcome of your work.</p>
-
-  <p>To be successful in leadership roles, you need to have this mentality.</p>
-
   <!-- 100% privacy-first analytics -->
   <script async defer src="https://scripts.simpleanalyticscdn.com/light.js"></script>
+  <script src="/darkmode.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
       referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>
