@@ -7,109 +7,12 @@
     <title>Matt Dailey</title>
 
     <style media="screen">
-    :root {
-        --text-color: #333333FF;
-        --background-color: #FFFFFF;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --text-color: #FFFFFF;
-            --background-color: #1a1a1a;
-        }
-    }
-
-    html,
-    body {
-        margin: 0;
-        font-family: Roboto, sans-serif;
-        color: var(--text-color);
-        font-weight: 300;
-        background-color: var(--background-color);
-    }
-
-    body {
-        padding: 32px;
-        padding-bottom: 32px;
-        max-width: 800px;
-    }
-
-    h1 {
-        font-size: 36px;
-        line-height: 36px;
-        font-weight: 300;
-    }
-
-    p {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    a {
-        color: var(--text-color);
-    }
-
-    #home {
-        font-size: 14px;
-        text-decoration: none;
-    }
-
-    .name {
-        font-size: 36px;
-    }
-
-    a {
-        color: var(--text-color);
-        text-decoration: none;
-    }
-
-    .row {
-        flex-wrap: wrap;
-    }
-
-    .socialRow {
-        flex-wrap: nowrap;
-    }
-
-    /* Add dark mode toggle styles */
-    .theme-toggle {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        background: none;
-        border: none;
-        color: var(--text-color);
-        cursor: pointer;
-        opacity: 0.3;
-        transition: opacity 0.3s;
-        font-size: 16px;
-    }
-
-    .theme-toggle:hover {
-        opacity: 0.8;
-    }
-
-    .theme-toggle:hover {
-        opacity: 1;
-    }
-            --text-color: #333333FF;
-            --background-color: #FFFFFF;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --text-color: #FFFFFF;
-                --background-color: #1a1a1a;
-            }
-        }
-
         html,
         body {
             margin: 0;
             font-family: Roboto, sans-serif;
-            color: var(--text-color);
+            color: #333333FF;
             font-weight: 300;
-            background-color: var(--background-color);
         }
 
         body {
@@ -130,7 +33,7 @@
         }
 
         a {
-            color: var(--text-color);
+            color: #333333FF;
         }
 
         #home {
@@ -143,7 +46,7 @@
         }
 
         a {
-            color: var(--text-color);
+            color: #333333FF;
             text-decoration: none;
         }
 
@@ -161,9 +64,6 @@
 
 <body>
     <div id="content">
-        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
-            ☀️
-        </button>
         <div>
             <div class="row">
                 <h1 class="name">Matt Dailey</h1>
@@ -175,28 +75,28 @@
                             <g opacity="1">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M12.3022 0C5.50878 0 0 5.50832 0 12.3037C0 17.7399 3.52496 22.3519 8.41301 23.9789C9.02783 24.0927 9.25355 23.7119 9.25355 23.387C9.25355 23.0936 9.24215 22.1243 9.23685 21.0962C5.81436 21.8405 5.09217 19.6445 5.09217 19.6445C4.53256 18.2224 3.72623 17.8442 3.72623 17.8442C2.61005 17.0806 3.81037 17.0963 3.81037 17.0963C5.04573 17.1828 5.6962 18.3642 5.6962 18.3642C6.79344 20.2452 8.57415 19.7014 9.27617 19.387C9.38658 18.592 9.7054 18.0488 10.0572 17.7417C7.32474 17.4306 4.45229 16.3756 4.45229 11.6611C4.45229 10.3178 4.93287 9.22019 5.71983 8.35854C5.5921 8.04844 5.17101 6.79722 5.83901 5.10245C5.83901 5.10245 6.87207 4.77177 9.22299 6.36365C10.2043 6.09103 11.2567 5.95432 12.3022 5.94963C13.3477 5.95432 14.4009 6.09103 15.3841 6.36365C17.7322 4.77177 18.7638 5.10245 18.7638 5.10245C19.4334 6.79722 19.0121 8.04844 18.8844 8.35854C19.6732 9.22019 20.1505 10.3178 20.1505 11.6611C20.1505 16.3868 17.2726 17.4273 14.5331 17.732C14.9744 18.1138 15.3676 18.8625 15.3676 20.0105C15.3676 21.6565 15.3533 22.9815 15.3533 23.387C15.3533 23.7144 15.5748 24.098 16.1984 23.9772C21.0838 22.3485 24.6042 17.7381 24.6042 12.3037C24.6042 5.50832 19.0963 0 12.3022 0Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M4.65949 17.6655C4.63239 17.7269 4.53624 17.745 4.44864 17.703C4.35941 17.6629 4.30929 17.5796 4.33822 17.5182C4.3647 17.4553 4.46106 17.4379 4.55009 17.4797C4.63952 17.5201 4.69045 17.6042 4.65949 17.6655Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M5.15776 18.2214C5.09909 18.2758 4.9844 18.2505 4.90658 18.1645C4.82611 18.0787 4.81103 17.964 4.87052 17.9088C4.93102 17.8544 5.04225 17.8799 5.12293 17.9656C5.2034 18.0524 5.21908 18.1663 5.15776 18.2214Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M5.64283 18.93C5.56746 18.9824 5.4442 18.9333 5.36801 18.8238C5.29264 18.7144 5.29264 18.5832 5.36964 18.5306C5.44604 18.4781 5.56746 18.5253 5.64466 18.6339C5.71984 18.745 5.71984 18.8764 5.64283 18.93Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M6.30736 19.6146C6.23992 19.689 6.0963 19.669 5.99118 19.5675C5.88362 19.4683 5.85367 19.3275 5.92131 19.2531C5.98955 19.1786 6.13399 19.1995 6.23992 19.3002C6.34667 19.3992 6.37927 19.541 6.30736 19.6146Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M7.2241 20.0121C7.19435 20.1085 7.05603 20.1523 6.91668 20.1113C6.77754 20.0691 6.68648 19.9563 6.71459 19.8589C6.74352 19.7619 6.88246 19.7162 7.02282 19.76C7.16176 19.802 7.25302 19.9141 7.2241 20.0121Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M8.23088 20.0859C8.23435 20.1873 8.11619 20.2715 7.96992 20.2731C7.82283 20.2766 7.70386 20.1945 7.70223 20.0946C7.70223 19.9921 7.81774 19.9088 7.96483 19.9064C8.1111 19.9035 8.23088 19.985 8.23088 20.0859Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M9.16779 19.9263C9.18531 20.0253 9.08365 20.127 8.9384 20.1539C8.79559 20.1802 8.66338 20.1191 8.64525 20.0209C8.62753 19.9194 8.73102 19.8177 8.87362 19.7914C9.01907 19.7662 9.14925 19.8257 9.16779 19.9263Z"
-                                    fill="currentColor" />
+                                    fill="#333333" />
                             </g>
                         </svg>
                     </a>
@@ -245,8 +145,6 @@
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
     <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
             referrerpolicy="no-referrer-when-downgrade" /></noscript>
-    
-    <script src="/darkmode.js"></script>
 </body>
 
 </html>
