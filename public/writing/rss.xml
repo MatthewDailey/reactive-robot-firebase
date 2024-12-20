@@ -93,6 +93,18 @@
       <pubDate>Tue, 12 Nov 2024 09:00:00 +0000</pubDate>
       <lastBuildDate>Tue, 12 Nov 2024 09:00:00 +0000</lastBuildDate>
     </item>
+    
+    <item>
+      <title>I want you to f-ing get it</title>
+      <link>https://reactiverobot.com/writing/communication.html</link>
+      <author>matt@reactiverobot.com (Matt Dailey)</author>
+      <description>In spring 2016, I worked at a seed stage start-up called “Radical Candor,” founded by Kim Scott and Russ Laraway to
+    build software to help managers become better managers. Everyday I coded in the back seat of a Lyft on Highway 280
+    as I rode to our office in the Flintstone House, 45 minutes south of San Francisco.</description>
+      <guid>https://reactiverobot.com/writing/communication.html</guid>
+      <pubDate>Tue, 03 Sep 2024 09:00:00 +0000</pubDate>
+      <lastBuildDate>Tue, 03 Sep 2024 09:00:00 +0000</lastBuildDate>
+    </item>
     <!-- Add more <item> elements for additional posts -->
   </channel>
 </rss>
