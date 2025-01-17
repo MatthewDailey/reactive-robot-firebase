@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+  <meta name="description" property="og:description"
+    content="Why I left Figma and what I'm doing next.">
+  <!-- dimensions 520x270 -->
+  <meta name="image" property="og:image" content="/writing/leaving-figma.png">
+  <meta name="author" content="Matt Dailey">
+
+  <title>I just left Figma. What am I doing now?</title>
+
+  <style media="screen">
+    html,
+    body {
+      margin: 0;
+      font-family: Roboto, sans-serif;
+      color: #333333FF;
+      font-weight: 300;
+    }
+
+    body {
+      padding: 32px;
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 36px;
+      font-weight: 300;
+    }
+
+    b,
+    p,
+    li {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    a {
+      color: #333333FF;
+      text-decoration: none;
+    }
+
+    #writing {
+      font-size: 14px;
+    }
+  </style>
+
+  <link rel="icon" href="/head-favicon.png" />
+</head>
+
+<body>
+  <h1><a href="/writing" id="writing">writing /</a> I just left Figma. What am I doing now?</h1>
+  <b>It's the coolest time ever to build software.</b>
+
+  <p>There are these series of steps you take as a software engineer where you learn new tools that make you faster and more efficient. For me, the first was hotkeys in Vim, then learning version control and then stepping up into an IDE and using tools like go-to-definition. You usually take steps by seeing other engineers do something so fast it seems like magic and being like "wait how'd you do that??" and then copying them. But there's a point as you progress where you've seen it all and encountering new wizards with mysterious powers is rare.</p>
+
+  <p>For the first time in a long time (as long as I've worked in software), AI has added new step function improvements. And it's done it every couple of years. GitHub Copilot started the wave, Cursor Tab added another step and various agentic prompt-to-code implementations (e.g. Cursor, Windsurf, Cline) are pushing the envelope more.</p>
+
+  <p>It's nerve-wracking to keep up with because it's all happening so freaking fast. But it's so, so cool. It feels like we (engineers) have collectively been on a plateau and suddenly people are finding new heights to explore every month. Each time someone discovers a new step, it's a huge economic value as seen from the insane growth of these businesses.</p>
+
+  <p>All of these advancements are so raw and fresh that there is no consensus tool stack or workflow. There are definitely leaders (I'm lookin at you, Cursor) but most of the users are pioneers out here hacking through the jungle on what works and what doesn't. The tools aren't hyper-optimized over years, they're evolving in real time. And the current best tools are only a few years old and there are amazing opensource resources to build on top of.</p>
+
+  <p>To get a chance to experiment with next steps, I need to be in it. When the next research advancement happens or new model capability is released, I need an AI-enabled IDE to build on top of. I should be working everyday in this IDE so it needs the table stakes features like autocomplete, multicomplete, search and prompt to code.</p>
+
+  <p>There's also so much open space in terms of UX and that's very cool to me. None of this is settled and I love the challenge involved in building my own taste and trying to rebuild my engineering workflows from the ground up. And again, to truly explore that, I need a functioning AI IDE that I can tweak and iterate on.</p>
+
+  <p>So that's what I'm doing. I have initial autocomplete, multicomplete, search and prompt-to-code implementations in Node and a VSCode fork I'm porting them into.</p>
+
+  <b>What are my predictions for that next step?</b>
+  <p>Some unorganized thoughts:</p>
+
+  <p>Models (e.g. claude-3.5-sonnet) can already output correct code given a non-crazy amount of the right context. The challenge is gathering that right context. Gathering the right context is an optimization game between cost-speed-accuracy. When something feels like it's consistently getting the right context, that will be a step forward.</p>
+
+  <p>We can generate a ton of pretty good code already. How you review and test it effectively is still crufty relative to the quality of code. I'm personally curious to try building an AI tool focused on test-driven-development.</p>
+
+  <p>I don't think it's agents that go off and do things for you while you do other stuff. Maybe one day, but ultimately there's a human operating the tool. The best tools have fast feedback loops so you can stay in flow. Dispatching an agent to go do stuff and coming back later is the antithesis of that. For this same reason, I'm cautiously skeptical of inference-time scaling as it pertains to hands-on-keyboard tools. OTOH, additional reasoning time might reduce some of the context needs so I'm curious about that?</p>
+
+  <p>The biggest (and maybe boring-est) prediction is that everything is so new and moving so fast that it must keep evolving. Things aren't settled and there's tons of opportunity.</p>
+
+  <b>Why not go work at Cursor or Codeium or similar?</b>
+  <p>Those are already $1B+ valued companies. I want to create that first $1B of value, not join in after.</p>
+
+  <p>I joined Figma pretty early (per $1M ARR) but there were bunch of wonderful people there long before me doing amazing work that would lead to Figma's eventual success. I have a chip on my shoulder that I rode those people's coat tails and I want to prove it to myself that I can do it too.</p>
+
+  <b>Can I try anything you've been working on?</b>
+  <p>npx awolf -h</p>
+
+  <!-- 100% privacy-first analytics -->
+  <script async defer src="https://scripts.simpleanalyticscdn.com/light.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
+      referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+
+</html>
